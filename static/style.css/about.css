@@ -9,7 +9,8 @@ body {
   font-family: 'Montserrat', sans-serif;
   overflow-y: scroll;
 }
-body::-webkit-scrollbar{
+
+body::-webkit-scrollbar {
   background: transparent;
 
 }
@@ -134,14 +135,16 @@ li a {
   color: white;
   border: 2px solid white;
 }
-.h2{
+
+.h2 {
   font-size: 60px;
   margin-left: 300px;
   padding: 5px;
   background: -webkit-linear-gradient(rgb(2, 52, 253), rgb(3, 4, 66));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
+
 #head1 {
   margin-top: 20px;
   color: white;
