@@ -8,6 +8,7 @@ body {
   /* font-family: 'Arial', sans-serif; */
   font-family: 'Montserrat', sans-serif;
   overflow-y: scroll;
+  background-color: #c7dcf3;
 }
 
 body::-webkit-scrollbar {
@@ -53,9 +54,6 @@ ul {
   overflow: hidden;
   background-color: gray;
   opacity: 0.8;
-  position: sticky;
-  top: 0;
-  z-index: 1;
 }
 
 li {
@@ -90,11 +88,12 @@ li a {
   width: 90%;
   border: white;
   border-radius: 10px;
-  box-shadow: 5px 5px 5px 5px gray;
+  box-shadow: 5px 5px 5px 5px #6cacf1;
   margin-left: auto;
   margin-right: auto;
   height: 1100px;
   padding: 30px;
+  background-color: #b5d2f1;
 }
 
 .div1 {
