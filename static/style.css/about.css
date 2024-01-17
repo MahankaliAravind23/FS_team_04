@@ -11,10 +11,10 @@ body {
   background-color: #c7dcf3;
 }
 
-body::-webkit-scrollbar {
+/* body::-webkit-scrollbar {
   background: transparent;
 
-}
+} */
 
 h1 {
   line-height: 50px;
@@ -46,6 +46,7 @@ footer {
   position: sticky;
   top: 0;
   z-index: 1;
+  
 }
 
 ul {
@@ -53,7 +54,7 @@ ul {
   margin-bottom: 20px;
   overflow: hidden;
   background-color: gray;
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 li {
