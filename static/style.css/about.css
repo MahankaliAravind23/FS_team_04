@@ -89,7 +89,6 @@ li a {
   width: 90%;
   border: white;
   border-radius: 10px;
-  box-shadow: 5px 5px 5px 5px #6cacf1;
   margin-left: auto;
   margin-right: auto;
   height: 1100px;
@@ -140,9 +139,7 @@ li a {
   font-size: 60px;
   margin-left: 300px;
   padding: 5px;
-  background: -webkit-linear-gradient(rgb(2, 52, 253), rgb(3, 4, 66));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: rgb(4, 4, 62);
 }
 
 #head1 {

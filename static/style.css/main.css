@@ -17,7 +17,7 @@
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 10px;
     overflow: hidden;
     background-color: #333;
     opacity: 0.9;
@@ -92,10 +92,7 @@ h1 {
     text-align: center;
     border-bottom: 2px solid black;
     border-radius: 20px;
-    background: -webkit-linear-gradient(rgb(3, 250, 254), rgb(44, 2, 255));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    /* opacity: 0.8; */
+    color: blue;
 }
 
 input {
@@ -181,9 +178,10 @@ button:hover {
 }
 
 #head1 {
-    margin-top: 20px;
+    margin-top: 10px;
     color: white;
     font-size: 40px;
+    padding-bottom: 10px;
 }
 
 footer {
