@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-image: url(back\ a.jpg);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    height: 90px;
+  }
+  
+  li {
+    float: left;
+    padding: 5px;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .nav {
+    display: inline;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    margin: 0%;
+    /* padding: 0; */
+}
+  .li {
+    margin-top: 20px;
+
+  }
+  
+  .li:hover {
+    background-color: white;
+    color: black;
+  }
+  #head1 {
+    /* margin-top: -8px; */
+    color: white;
+    font-size: 35px;
+  }
+
+
+
+form {
+     border-radius: 10px;
+    border: 2px solid black;
+    background: transparent;
+    backdrop-filter: blur(8px);
+    width: 500px;
+    padding: 28px 28px 40px;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.5);
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#h2{
+    padding: 5px;
+    border-bottom: 3px solid black;
+    /* background-color: rgb(4, 190, 252); */
+    border-radius: 30px;
+    text-align: center;
+    font-size: 40px;
+}
+#sub {
+    width: 200px;
+    padding: 6px;
+    height: 60px;
+    font-size: 23px;
+    background-color: #333;
+    border:none;
+    margin-top: 10px;
+    margin-left: 120px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+#sub:hover{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+
+.input{
+    
+    height: 43px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    font-size: 25px;
+    border: 2px solid black;
+}
+
+label {
+    font-size: 30px;
+    text-align: left;
+}
+
+.content {
+    margin-top: -700px;
+
+}
+
+textarea {
+    width: 95%;
+    font-size: 11px;
+}
+.feed{
+    font-size: 20px;
+    border: none;
+}
+.para{
+    font-size: 20px;
+    padding: 10px;
+}
+  .radio{
+    width: 20px ;
+    height: 20px;
+    margin-left: 10px;
+    
+  }

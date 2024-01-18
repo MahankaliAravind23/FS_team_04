@@ -3,15 +3,16 @@
     margin: 0;
     font-family: 'Montserrat', sans-serif;
 }
-
+body{
+    background-image: url(back\ a.jpg);
+}
 
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: gray;
-    opacity: 0.9;
+    background-color: #333;
     position: sticky;
     z-index: 1;
     top: 0;
@@ -86,87 +87,8 @@ a {
     color: white;
 }
 
-form {
-    border: 2px solid white;
-    width: 450px;
-    height: 650px;
-    /* text-align: center; */
-    border-radius: 5px;
-    box-shadow: 5px 5px 10px 10px gray;
-    margin-top: 20px;
-    margin-left: 200px;
-    padding: 40px;
-    background-color: rgb(63, 193, 233);
-}
-
-h2 {
-    padding: 10px;
-    margin-top: 10px;
-    border-bottom: 3px solid white;
-    /* background-color: rgb(4, 190, 252); */
-    border-radius: 30px;
-    text-align: center;
-    font-size: 40px;
-    color: white;
-}
-
-#sub {
-    width: 95%;
-    padding: 6px;
-    height: 50px;
-    font-size: 20px;
-    background-color: rgb(4, 190, 252);
-    border: 2px solid white;
-    border-radius: 5px;
-    margin-top: 10px;
-    margin-left: 2px;
-    cursor: pointer;
-    
-}
-
-.input{
-    width: 95%;
-    height: 35px;
-    font-size: 20px;
-    border: none;
-}
-
-label {
-    font-size: 30px;
-    text-align: left;
-}
-
-.content {
-    margin-top: -700px;
-
-}
-
-textarea {
-    width: 95%;
-    font-size: 11px;
-}
-.feed{
-    font-size: 20px;
-    color: white;
-    border: none;
-}
-.para{
-    font-size: 20px;
-    padding: 10px;
-    color: white;
-}
-footer {
-    margin-top: 50px;
-    text-align: center;
-  }
-  .radio{
-    width: 20px ;
-    height: 20px;
-    margin-left: 10px;
-    
-  }
   #head1 {
-    margin-top: 20px;
+    margin-top: 10px;
     color: white;
-    font-size: 40px;
+    font-size: 35px;
 }

@@ -1,14 +1,14 @@
 * {
   margin: 0;
   padding: 0;
-  line-height: 35px;
+  /* line-height: 35px; */
 }
 
 body {
   /* font-family: 'Arial', sans-serif; */
   font-family: 'Montserrat', sans-serif;
   overflow-y: scroll;
-  background-color: #c7dcf3;
+  background-image: url(back\ a.jpg);
 }
 
 /* body::-webkit-scrollbar {
@@ -53,7 +53,7 @@ ul {
   list-style-type: none;
   margin-bottom: 20px;
   overflow: hidden;
-  background-color: gray;
+  background-color: #333;
   opacity: 0.9;
 }
 
@@ -72,7 +72,7 @@ li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 10px;
+  padding: 15px;
   text-decoration: none;
 }
 
@@ -87,13 +87,13 @@ li a {
 
 .maindiv {
   width: 90%;
-  border: white;
+  border:2px solid rgb(182, 216, 229);
   border-radius: 10px;
   margin-left: auto;
   margin-right: auto;
   height: 1100px;
   padding: 30px;
-  background-color: #b5d2f1;
+  /* background-image: url(back\ a.jpg); */
 }
 
 .div1 {
@@ -114,10 +114,11 @@ li a {
 
 .div2 img {
   width: 95%;
-  height: 1020px;
+  height: 1000px;
   margin-right: 30px;
   border-radius: 10px;
   margin-right: 40px;
+  margin-top: 45px;
 }
 
 .btn {
@@ -143,7 +144,7 @@ li a {
 }
 
 #head1 {
-  margin-top: 20px;
+  margin-top: 10px;
   color: white;
-  font-size: 45px;
+  font-size: 35px;
 }
