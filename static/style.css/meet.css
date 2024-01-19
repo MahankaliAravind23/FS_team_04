@@ -25,7 +25,8 @@ li {
 
 li a {
   display: block;
-  color: white;
+  color: black;
+  background-color: rgb(217, 202, 202);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -36,30 +37,23 @@ li a {
 }
 
 .li:hover {
-  background-color: white;
-  color: black;
-}
-
-.btn {
-  background-color: white;
   opacity: 0.8;
-  color: black;
-  border: 3px solid black;
-  margin-top: 15px;
-  margin: 10px;
 }
 
-.btn:hover {
-  background-color: black;
-  color: white;
-  border: 2px solid white;
-}
 
 #head1 {
   margin-top: 10px;
   color: white;
   font-size: 35px;
   margin-top: -10px;
+  background: none;
+}
+
+#img {
+  border-radius: 50%;
+  background: none;
+  width: 60px;
+  margin-top: 15px;
 }
 
 .responsive-cell-block {

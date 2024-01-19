@@ -19,7 +19,7 @@ ul {
     margin: 0;
     padding: 10px;
     overflow: hidden;
-    background-color: #333; 
+    background-color: #333;
     position: sticky;
     top: 0;
     z-index: 1;
@@ -32,10 +32,11 @@ li {
 
 li a {
     display: block;
-    color: white;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    background-color: rgb(217, 202, 202);
 }
 
 .li {
@@ -43,8 +44,7 @@ li a {
 }
 
 .li:hover {
-    background-color: white;
-    color: black;
+    opacity: 0.8;
 }
 
 
@@ -104,8 +104,8 @@ button {
     text-align: center;
     cursor: pointer;
     outline: none;
-    color: white;
-    background-color:#333;
+    color: black;
+    background-color: rgb(217, 202, 202);
     margin-left: 200px;
     font-weight: bold;
     border: none;
@@ -113,8 +113,7 @@ button {
 }
 
 button:hover {
-    background-color: white;
-    color: black;
+    opacity: 0.8;
 }
 
 /* home page  */
@@ -157,11 +156,12 @@ button:hover {
 
 
 }
+
 #head1 {
-    margin-top: 10px;
     color: white;
     font-size: 35px;
-    margin-top: -10px;
+    background: none;
+    /* margin-top: 10px; */
 }
 
 footer {
