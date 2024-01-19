@@ -37,6 +37,7 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
     background-color: rgb(217, 202, 202);
+    border-radius: 6px;
 }
 
 .li {
@@ -52,7 +53,7 @@ li a {
 #index {
     background-image: url(back\ a.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -109,6 +110,7 @@ button {
     margin-left: 200px;
     font-weight: bold;
     border: none;
+    border-radius: 5px;
 
 }
 

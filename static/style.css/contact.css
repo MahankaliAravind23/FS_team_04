@@ -40,6 +40,7 @@ li a {
   background-color: rgb(217, 202, 202);
   margin-right: 10px;
   margin-top: 15px;
+  border-radius: 6px;
 }
 
 .li:hover {
@@ -218,4 +219,7 @@ li a {
     width: 100%;
     margin-left: 0;
   }
+}
+footer{
+  text-align: center;
 }
