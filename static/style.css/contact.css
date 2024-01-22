@@ -121,7 +121,7 @@ li a {
 .content .left-side .details .text-two {
   font-size: 14px;
   /* color: #afafb6; */
-  
+
 }
 
 
@@ -221,7 +221,8 @@ li a {
     margin-left: 0;
   }
 }
-footer{
+
+footer {
   text-align: center;
   margin-bottom: 0;
 }
